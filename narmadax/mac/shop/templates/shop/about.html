@@ -1,52 +1,128 @@
 {% extends 'shop/basic.html' %}
 
-{% block title%} About Us{% endblock %}
+{% block title%}Narmada - About Us{% endblock %}
 {% block body %}
 
+	<!-- ================ start banner area ================= -->
+	<section class="blog-banner-area" id="contact">
+		<div class="container h-100">
+			<div class="blog-banner">
+				<div class="text-center">
+					<h1>About Us</h1>
+					<nav aria-label="breadcrumb" class="banner-breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">About Us</li>
+            </ol>
+          </nav>
+				</div>
+			</div>
+    </div>
+	</section>
+	<!-- ================ end banner area ================= -->
 
-
-
-<main role="main">
-
-  <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron">
+	<!-- ================ contact section start ================= -->
+  <section class="section-margin--small">
     <div class="container">
-      <h1 class="display-3">My Awesome Cart!</h1>
-      <p>My Awesome Cart Pvt Ltd. is an Indian electronic commerce company based in Bengaluru, India. Founded by Sachin Bansal and Binny Bansal in 2007, the company initially focused on book sales, before expanding into other product categories such as consumer electronics, fashion, and lifestyle products.
+      <div class="row">
+        <div class="col-md-4 col-lg-4 mb-4 mb-md-0">
+        <h3>
+          Who We Are?
+        </h3>
+          <div class="media contact-info">
+          Berry's Tree is a electronic commerce company that offers Men's T-Shirt. We also provides Special series of T-Shirts for Nature Lovers because we are also Nature Preserver's and we also provide other style T-Shirts.
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-4 mb-4 mb-md-0">
+        <h3>
+          T & C
+        </h3>
+          <div class="media contact-info">
+          By using this website and/or placing an order, you agree to be bound by the terms and conditions set out below. Please also read our Privacy Policy regarding personal information provided by you. No prior notice for amendment to the terms, the amendment will be applied to orders thereafter. Upon confirmation of your orders, we will not be able to make any changes.
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-4 mb-4 mb-md-0">
+        <h3>
+          Privacy Policy
+        </h3>
+          <div class="media contact-info">
+          <span>Your privacy is important to us at www.berrystree.com. As such, we are committed to being transparent and open. This Privacy Policy explains how we collect and utilize information about our customers.
+          <br>
+           We may collect different types of personal and other information based on your use of our products and services. Some examples include: 
+           <!-- Button trigger modal -->
+           <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modelId">
+             Read More
+           </button>
+           
+           <!-- Modal -->
+           <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+             <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                   <div class="modal-header">
+                       <h5 class="modal-title">Privacy Policy</h5>
+                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                         </button>
+                     </div>
+                 <div class="modal-body">
+                   
+						
 
-The service competes primarily with Amazon' s Indian subsidiary, and the domestic rival Snapdeal.[5][6] as of March 2017, Flipkart held a 39.5% market share of India's e-commerce industry.[7] Flipkart is significantly dominant in the sale of apparel (a position that was bolstered by its acquisitions of Myntra and Jabong.com), and was described as being "neck and neck" with Amazon in the sale of electronics and mobile phones.[8] Flipkart also owns PhonePe, a mobile payments service based on the Unified Payments Interface (UPI).
 
-In August 2018, U.S.-based retail chain Walmart acquired a 77% controlling stake in Flipkart for US$16 billion, valuing it at $22 billion.</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+						<span>Your privacy is important to us at www.berrystree.com. As such, we are committed to being
+							transparent and open. This Privacy Policy explains how we collect and utilize information
+							about our customers. </span>
+						<p>
+
+
+							We may collect different types of personal and other information based on your use of our
+							products and services. Some examples include:
+							</p><ul>
+								<li> 1. Contact information that allows us to communicate with you, including your name,
+									address,
+									and e-mail address.
+								</li>
+								<li>
+
+									2. Equipment, performance, site and/or app usage, viewing and other technical
+									information
+									about your use of our network, services, products or websites.
+								</li>
+							</ul>
+							We may use the information we collect for a variety of purposes, including:
+							<ul>
+								<li>1. Providing you with the best possible user experience.</li>
+								<li>2. Providing the services you use, and to respond to your enquiries.</li>
+								<li>3. Delivering customized content that may be of interest to you.</li>
+								<li>4. Communicating with you regarding service updates, offers, and promotions.</li>
+							</ul>
+						<p></p>
+					
+                 </div>
+                 <div class="modal-footer">
+                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                 </div>
+               </div>
+             </div>
+           </div>
+           
+           <script>
+             $('#exampleModal').on('show.bs.modal', event => {
+               var button = $(event.relatedTarget);
+               var modal = $(this);
+               // Use above variables to manipulate the DOM
+               
+             });
+           </script>
+        </span>
+          </div>
+        </div>
+       
+      </div>
     </div>
-  </div>
-
-  <div class="container">
-    <!-- Example row of columns -->
-    <div class="row">
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-      </div>
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-      </div>
-      <div class="col-md-4">
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-      </div>
-    </div>
-
-    <hr>
-
-  </div> <!-- /container -->
-
-</main>
-
+  </section>
+	<!-- ================ contact section end ================= -->
+  
 
 
 
